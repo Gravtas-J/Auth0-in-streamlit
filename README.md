@@ -30,10 +30,9 @@ import os
 ```python
 st.set_page_config(
     page_title=("Auth0 Example"),
-    initial_sidebar_state=st.session_state.sidebar_state
 )
 ```
-- This line sets the configuration for the Streamlit page, setting the title to "Auth0 Example" and initializing the sidebar state based on the current session state.
+- This line sets the configuration for the Streamlit page, setting the title to "Auth0 Example".
 
 ```python
 hide_st_style = """
